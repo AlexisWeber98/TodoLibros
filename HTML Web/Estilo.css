@@ -1,3 +1,75 @@
+body{
+   background-color: rgb(152, 152, 152); 
+}
+
+nav h1 a {
+    font-size: 1.5em; 
+    background-color: rgb(17, 172, 255);
+    color: white;
+    border-radius:0.5em;
+    padding: 0.3em;
+}
+nav{
+    border-radius: 0.5em;
+    padding: 0.5em;
+    border-color: #09f;
+   background-image: linear-gradient(
+        50deg, 
+        #0037ff,
+        #09f,
+        #00ff9d
+   );
+
+}
+
+
+
+button {
+
+    border: 0.2em;
+    background-image: linear-gradient(
+        140deg,
+        #9500ff,
+        #09f,
+        #00ddff
+        );
+        
+        border-radius: 0.5em;
+        display: flex;
+        font-size: 1.05em;
+        padding: 0.3em;
+        cursor: pointer;
+        transition: .3s;
+}
+
+
+button span a {
+
+    color: white
+}        
+
+
+button span{
+    border-radius: 0.5em;
+    background-color: #111;
+    padding: 0.5em 0.5em;
+    transition: .3s;
+}
+
+button :hover{
+background: none;
+}
+
+button :active{
+    transform: scale(0.9);
+}
+
+
+img{
+    width: 12em;
+    height: 12em;
+}
+
 
 
 .requerido {
