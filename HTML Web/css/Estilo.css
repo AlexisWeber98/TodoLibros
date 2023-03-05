@@ -2,6 +2,7 @@
 
 header{
     font-family: 'Libre Baskerville', serif;
+    
 }
 
 nav h1 a {
@@ -25,8 +26,6 @@ nav{
 
 }
 
-
-
 button {
 
     border: 0.2em;
@@ -48,7 +47,7 @@ button {
 
 button span a {
 
-    color: white
+    color: white;
 }        
 
 
@@ -67,12 +66,21 @@ button :active{
     transform: scale(0.9);
 }
 
+h2{
+    text-align: center;
+}
+
+.libro-lectura{
+    border: grey solid 1px;
+    border-radius: .5em;
+    background-image: linear-gradient(
+     #ffffff,#09f, #0037ff,#09f, white);
+}
 
 img{
     width: 12em;
     height: 12em;
 }
-
 
 
 .requerido {
