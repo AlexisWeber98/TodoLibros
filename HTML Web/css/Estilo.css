@@ -4,9 +4,12 @@ header{
     font-family: 'Libre Baskerville', serif;
     
 }
+a{
+    text-decoration: none;
+}
 
 nav h1 a {
-    font-size: 2em; 
+    font-size: 1.7em; 
     background-color: rgb(17, 172, 255);
     color: white;
     border-radius:0.5em;
@@ -14,33 +17,33 @@ nav h1 a {
 }
 nav{
     margin: none;
-    border-radius: 0.5em;
+    border-radius: 0.5em ;
     padding: 0.5em;
     border-color: #09f;
-   background-image: linear-gradient(
+    background-image: linear-gradient(
         180deg, 
         #0037ff,
         #09f,
         white
-   );
-
-}
-
-button {
-
-    border: 0.2em;
-    background-image: linear-gradient(
-        140deg,
-        #9500ff,
-        #09f,
-        #00ddff
         );
         
-        border-radius: 0.5em;
-        display: flex;
-        font-size: 1.05em;
-        padding: 0.3em;
-        cursor: pointer;
+    }
+    
+    button {
+        
+        border: 0.1em;
+        background-image: linear-gradient(
+            140deg,
+            #9500ff,
+            #09f,
+            #00ddff
+            );
+            
+            border-radius: 0.5em;
+            display: flex;
+            font-size: 1.0em;
+            padding: 0.3em;
+            cursor: pointer;
         transition: .3s;
 }
 
@@ -52,6 +55,7 @@ button span a {
 
 
 button span{
+    font-size: .9em;
     border-radius: 0.5em;
     background-color: #111;
     padding: 0.5em 0.5em;
@@ -59,7 +63,7 @@ button span{
 }
 
 button :hover{
-background: none;
+    background: none;
 }
 
 button :active{
@@ -71,15 +75,23 @@ h2{
 }
 
 .libro-lectura{
+    display: inline-block;
     border: grey solid 1px;
     border-radius: .5em;
     background-image: linear-gradient(
      #ffffff,#09f, #0037ff,#09f, white);
+     font-size: .8em;
+     text-align: center;
+     
 }
 
 img{
-    width: 12em;
-    height: 12em;
+    width: 10em;
+    height: 10em;
+}
+
+.sugerencias, input{
+    font-size: .79em;
 }
 
 
