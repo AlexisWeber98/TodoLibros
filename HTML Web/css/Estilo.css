@@ -1,55 +1,66 @@
 
 
 header{
+
     font-family: 'Libre Baskerville', serif;
     
 }
 a{
     text-decoration: none;
 }
-
-nav h1 a {
+h1{
+    margin-block: 0.005em;
+}
+h1 a{
+    margin:.3em;
+    display: inline-block;
     font-size: 1.7em; 
-    background-color: rgb(17, 172, 255);
+    background: rgb(17, 172, 255);
     color: white;
     border-radius:0.5em;
     padding: 0.3em;
 }
-nav{
-    margin: none;
-    border-radius: 0.5em ;
-    padding: 0.5em;
-    border-color: #09f;
-    background-image: linear-gradient(
-        180deg, 
-        #0037ff,
-        #09f,
-        white
-        );
-        
-    }
+
+
+.botones{
+position: absolute;
+top: 1em;
+left:35em;
+}
+
+.boton1{
+    display: inline-block;
     
-    button {
-        
-        border: 0.1em;
-        background-image: linear-gradient(
-            140deg,
-            #9500ff,
-            #09f,
-            #00ddff
-            );
-            
-            border-radius: 0.5em;
-            display: flex;
-            font-size: 1.0em;
-            padding: 0.3em;
-            cursor: pointer;
-        transition: .3s;
+}
+
+.boton2{
+    display: inline-block;
+    
+}
+
+.boton3{
+    display: inline-block;
+   
+}
+button {
+
+    border: 0.1em;
+    background: linear-gradient(
+        140deg,
+        #9500ff,
+        #09f,
+        #00ddff
+        );
+    border-radius: 0.5em;
+    display: flex;
+    font-size: 1.0em;
+    padding: 0.3em;
+    cursor: pointer;
+    transition: .3s;
 }
 
 
 button span a {
-
     color: white;
 }        
 
@@ -57,7 +68,7 @@ button span a {
 button span{
     font-size: .9em;
     border-radius: 0.5em;
-    background-color: #111;
+    background: #111;
     padding: 0.5em 0.5em;
     transition: .3s;
 }
@@ -70,22 +81,62 @@ button :active{
     transform: scale(0.9);
 }
 
+nav{
+    border-radius: 0.5em ;
+    padding-bottom: 5em;
+    border-color: #09f;
+    background: linear-gradient(
+        180deg, 
+        #0037ff,
+        #09f,
+        white
+        );
+            
+}
+
 h2{
     text-align: center;
 }
 
-.libro-lectura{
+article{
+    text-align: center;
+}
+.Recomendados{
+    
+    transition:1s;
+    cursor: pointer;
     display: inline-block;
     border: grey solid 1px;
     border-radius: .5em;
-    background-image: linear-gradient(
-     #ffffff,#09f, #0037ff,#09f, white);
-     font-size: .8em;
-     text-align: center;
-     
+    background: linear-gradient(
+        #ffffff,#09f, #0037ff,#09f, white);
+        font-size: .8em;
+        text-align: center;
+        
+    }
+    
+    .Recomendados figure{
+        margin-inline: 1em;
+    }
+    .Recomendados :hover{
+        display: flex;
+        padding: .5em;
+    }
+   .Recomendados p{
+    position:none;
+   }
+    
+    .Recomendados :active{
+        position: absolute;
+        background:  linear-gradient(
+            #ffffff,#09f,#09f, white
+        );
+    transition: 1s;
+    transform: scale(0.9);
 }
 
-img{
+.Recomendados img{
+
     width: 10em;
     height: 10em;
 }
@@ -97,4 +148,27 @@ img{
 
 .requerido {
     color:red;
+}
+
+.redes{
+    display: inline-block;
+}
+footer{
+    padding: .5em;
+    border-radius: .5em;
+    background: linear-gradient(
+        180deg, 
+        white,
+        #09f,
+        #0037ff
+        );
+    
+}
+
+footer img{
+    margin: 0.5em;
+    background: white;
+    border-radius: 50%;
+    width: 2.5em;
+    height: 2.5em;
 }

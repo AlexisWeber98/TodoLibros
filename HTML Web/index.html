@@ -7,7 +7,7 @@
         <meta name="Keywords" content="libros, audiolibros, Edag Allan poe, escritores, escritor">
         <meta name="desciption" content="TodoLibros.com es un sitio que te permite encontrar libros y audiolibros de tus artistas favoritos">
         <meta Name="author" content="Alexis Weber"> 
-        <link rel="icon" href="images/libro.ico">
+        <link rel="icon" href="images/ico/libro.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -18,24 +18,23 @@
         <header>
         <nav>
             <h1><a href="index.html">TodoLibros.com</a></h1> 
-            <ul>
-                <li><button>
+            <div class="botones">
+                <li class="boton1"><button>
                     <span>
                         <a href="index.html">inicio</a>
                     </span>
                 </button></li>
-               <li><button>
+               <li class="boton2"><button>
                     <span>
                         <a href="LogIn.html">iniciar sesion</a>
                     </span>
                 </button></li>
-                <li><button>
+                <li class="boton3"> <button>
                     <span>
                         <a href="LogUp.html"> Crear Cuenta de Usuario</a>
                     </span>
                 </button></li>
-                
-            </ul>
+            </div>
         </nav>
         <article>
             <section>
@@ -47,7 +46,7 @@
         </article>
         <aside>
        
-        <h6><b></b>Búsqueda por</h6><b></h6>
+        <h6><b>Búsqueda por</b></h6>
             <ul>
                 <li>Géneros</li>
                 <li>Autores</li>
@@ -55,20 +54,37 @@
         </aside>
     </header>
         <br>
-        <h3>Recomendados</h3>
+        
     <div>
-        <li class="libro-lectura">
-          <figure>
-            <a href="ElCuervo.html"> <img src="images\El Cuervo.png" alt="El Cuervo"> </a>
-            <figcaption> <a href="ElCuervo.html"><b>El Cuervo <br> (Edgar Allan Poe)</b></a></figcaption>
-          </figure>
-        </li>
-        <li class="libro-lectura">
-            <figure>
-             <a  href="ElGatoNegro.html"> <img src="images\El gato negro.png" alt="El Gato Negro">
-                <figcaption> <a href="ElGatoNegro.html"> El Gato Negro <br>(Edgar Allan Poe)</a></figcaption>
-            </figure>
+        <h3>Recomendados</h3>
+        <a href="ElCuervo.html">
+            <li class="Recomendados">
+                <figure>
+                    <img src="images\El Cuervo.png" alt="El Cuervo">
+                    <figcaption> <b>El Cuervo <br> (Edgar Allan Poe)</b></figcaption>
+                    <div class="description"><p> Es un poema narrativo escrito por Edgar Allan Poe, publicado por primera vez en 1845.<br>
+                        Constituye su composición poética más famosa, ya que le dio reconocimiento internacional.</p>
+                    </div>
+                </figure>
             </li>
+        </a>
+        <a href="ElGatoNegro.html">
+            <li class="Recomendados">
+                <figure>
+                    <img src="images\El gato negro.png" alt="El Gato Negro">
+                    <figcaption>El Gato Negro <br>(Edgar Allan Poe)</figcaption>
+                </figure>
+            </li>
+        </a>
+        <a  href="Continuidad de los Parques.html">
+            <li class="Recomendados">
+                <figure>
+                    <img src="images\continuidad de los parques.png" alt="Continuidad de los Parques">
+                    <figcaption>Continuidad de los Parques <br>(Julio Cortázar)</figcaption>
+                </figure>
+            </li>
+        </a>
+        
     </div>
     
     <div class="sugerencias">
@@ -84,18 +100,18 @@
             </form>
     </div>
    
-    <div>
     <footer>
         <h5>Copyright Todos los Derechos reservados</h5>
            <p>seguinos en nuestras redes</p>
-           <a href="https://Instagram.com/ale.weber98"target=_blanck>Instagram</a>  
-           <a href="https://twitter.com/weber_beatle"target=_blanck>Twitter</a>
+            <li class="redes">
+              <a href="https://Instagram.com/ale.weber98" target=_blanck>
+              <img src="images/ico/instagram.png" alt="instagram"> </a>
+           </li>
+           <li class="redes"> 
+              <a href="https://twitter.com/weber_beatle"target=_blanck>
+              <img src="images/ico/twitter.2.ico" alt="Twitter"></a>
+            </li>
     </footer>
-
-    
-         
-        
-        
-         
+ 
          </body>
 </html>
