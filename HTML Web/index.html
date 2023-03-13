@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>TodoLibros</title>
-    <link rel="stylesheet" type="text/css" href="css\Estilo.css">
+        <link rel="stylesheet" type="text/css" href="css\Estilo.css">
         <meta charset="utf8">
         <meta name="Keywords" content="libros, audiolibros, Edag Allan poe, escritores, escritor">
         <meta name="desciption" content="TodoLibros.com es un sitio que te permite encontrar libros y audiolibros de tus artistas favoritos">
@@ -53,65 +53,63 @@
             </ul>
         </aside>
     </header>
-        <br>
         
-    <div>
+    <div class="reco">
         <h3>Recomendados</h3>
-        <a href="ElCuervo.html">
-            <li class="Recomendados">
-                <figure>
-                    <img src="images\El Cuervo.png" alt="El Cuervo">
-                    <figcaption> <b>El Cuervo <br> (Edgar Allan Poe)</b></figcaption>
-                    <div class="description"><p> Es un poema narrativo escrito por Edgar Allan Poe, publicado por primera vez en 1845.<br>
-                        Constituye su composición poética más famosa, ya que le dio reconocimiento internacional.</p>
-                    </div>
-                </figure>
-            </li>
-        </a>
-        <a href="ElGatoNegro.html">
-            <li class="Recomendados">
-                <figure>
-                    <img src="images\El gato negro.png" alt="El Gato Negro">
-                    <figcaption>El Gato Negro <br>(Edgar Allan Poe)</figcaption>
-                </figure>
-            </li>
-        </a>
-        <a  href="Continuidad de los Parques.html">
-            <li class="Recomendados">
-                <figure>
-                    <img src="images\continuidad de los parques.png" alt="Continuidad de los Parques">
-                    <figcaption>Continuidad de los Parques <br>(Julio Cortázar)</figcaption>
-                </figure>
-            </li>
-        </a>
-        
+        <div class="contenedor">
+            <div class="libro"> 
+                <a href="ElCuervo.html">
+                    <li class="Recomendados">
+                        <figure>
+                            <img class="imagen" src="images\El Cuervo.png" alt="El Cuervo">
+                            <figcaption>El Cuervo <br>(Edgar Allan Poe)</figcaption>
+                        </figure>
+                    </li>
+                </a>
+            </div>
+            <div class="libro">
+                <a href="ElGatoNegro.html">
+                    <li class="Recomendados">
+                        <figure>
+                            <img class="imagen" src="images\El gato negro.png" alt="El Gato Negro"><br>
+                            <figcaption>Gato Negro <br>(Edgar Allan Poe)</figcaption> 
+                        </figure>
+                    </li>
+                </a>
+            </div>
+            <div class="libro">
+                <a  href="Continuidad de los Parques.html">
+                    <li class="Recomendados">
+                        <figure>
+                            <img class="imagen" src="images\continuidad de los parques.png" alt="Continuidad de los Parques"><br>
+                            <figcaption>Continuidad de los Parques <br>(Julio Cortázar)</figcaption> 
+                        </figure>
+                    </li>
+                </a>
+            </div>
+        </div>
     </div>
-    
     <div class="sugerencias">
         <h4> ¿Estas buscando un libro en especial?<br> ¡envianos tu sugerencia!</h4>
-             <form>
+        <form>
             <p>Nombre <b class ="requerido">*</b></p>
-               <input type = "text" placeholder="Nombre" required>
+            <input type = "text" placeholder="Nombre" required>
             <p>Correo Electrónico <b class="requerido">*</b></p> 
-               <input type="email"  placeholder="E-Mail" required>
-            <p>Tu Sugerencia <b class="requerido">*</b></p> 
-               <input type="text"  placeholder="Tu Sugerencia" required>
-                    <input type="submit">
-            </form>
+            <input type="email"  placeholder="E-Mail" required>
+            <p>Tu Sugerencia <b class="requerido">*</b></p>
+            <input type="text"  placeholder="Tu Sugerencia" required>
+            <input type="submit">
+        </form>
     </div>
    
     <footer>
         <h5>Copyright Todos los Derechos reservados</h5>
-           <p>seguinos en nuestras redes</p>
-            <li class="redes">
-              <a href="https://Instagram.com/ale.weber98" target=_blanck>
-              <img src="images/ico/instagram.png" alt="instagram"> </a>
-           </li>
-           <li class="redes"> 
-              <a href="https://twitter.com/weber_beatle"target=_blanck>
-              <img src="images/ico/twitter.2.ico" alt="Twitter"></a>
-            </li>
+        <p>seguinos en nuestras redes</p>
+        <li class="redes">
+            <a href="https://Instagram.com/ale.weber98" target=_blanck> <img src="images/ico/instagram.png" alt="instagram"> </a>
+        </li>
+        <li class="redes"><a href="https://twitter.com/weber_beatle"target=_blanck><img src="images/ico/twitter.2.ico" alt="Twitter"></a>
+        </li>
     </footer>
- 
-         </body>
+</body>
 </html>
